@@ -1,0 +1,109 @@
+site_name: 视频创作手册
+site_description: 从构思到成片的视频创作方法、可复用案例，以及 AI 视频生成的实测方法论
+site_url: https://dwp7399.github.io/video-create-book/
+repo_url: https://github.com/dwp7399/video-create-book
+repo_name: dwp7399/video-create-book
+edit_uri: ""
+copyright: 文字以 CC BY 4.0 发布，代码以 MIT 发布；引用的开放电影版权归 Blender 基金会（CC BY）。
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: indigo
+      toggle: {icon: material/weather-night, name: 切换到深色}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: indigo
+      toggle: {icon: material/weather-sunny, name: 切换到浅色}
+  icon:
+    logo: material/movie-open-outline
+    repo: fontawesome/brands/github
+
+validation:
+  links:
+    anchors: warn
+    unrecognized_links: warn
+
+plugins:
+  - search:
+      lang: zh
+      separator: '[\s​\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+
+extra_css: [stylesheets/extra.css]
+extra_javascript: [javascripts/extra.js]
+
+nav:
+  - 首页: index.md
+  - 开始:
+      - 怎么读这本书: guide/04-reading-paths.md
+      - 从问题找方法: guide/10-problem-technique-index.md
+      - 创作维度地图: guide/01-methodology.md
+      - 完整大纲: guide/02-outline.md
+      - 项目工作表: guide/06-project-worksheets.md
+      - 技法条目模板: guide/03-technique-template.md
+      - 来源与术语: guide/05-sources-and-terms.md
+  - 视频创作方法:
+      - 01 目标、研究与创意: methods/01-goals-research.md
+      - 02 结构与信息组织: methods/02-structure.md
+      - 03 人物、行动与表演: methods/03-performance.md
+      - 04 世界、美术与风格: methods/04-world-style.md
+      - 05 场景设计与调度: methods/05-staging.md
+      - 06 镜头、构图与运动: methods/06-camera.md
+      - 07 光线、色彩与材质: methods/07-light-color.md
+      - 08 时间、剪辑与蒙太奇: methods/08-time-editing.md
+      - 09 声音、音乐与静默: methods/09-sound.md
+      - 10 字幕、图形与观看条件: methods/10-text-graphics.md
+      - 11 动画与运动设计: methods/11-animation.md
+      - 12 制作与协作: methods/12-production.md
+      - 13 评估、修改与交付: methods/13-review-delivery.md
+  - AI 视频方法:
+      - A1 为 AI 设计内容: ai/A1-content-design.md
+      - A2 生成控制方式的演进: ai/A2-control-evolution.md
+      - A3 一致性与抽卡率: ai/A3-consistency-yield.md
+      - A4 后期、声音与验收: ai/A4-post-review.md
+  - 案例:
+      - A 最后一把伞（剧情）: cases/01-umbrella.md
+      - B 桌面支架演示（产品）: cases/02-product.md
+      - C 修补台的一天（纪录）: cases/03-documentary.md
+      - 对话：此刻该看谁: cases/04-dialogue-attention.md
+      - 声音：同一动作的不同意图: cases/05-sound-priority.md
+      - 音乐：拍点还是乐句: cases/06-music-phrases.md
+      - 纪录：档案、回忆与重演: cases/07-documentary-evidence.md
+      - 科普：推近与变焦: cases/08-perspective-tutorial.md
+      - 剪辑：动作从哪里继续: cases/09-action-continuity.md
+      - 文字：何时读、何时看: cases/10-subtitle-attention.md
+  - 示范与作品:
+      - 现成作品观察: works.md
+      - 声音对照: demos/sound-priority.md
+      - 音画同步修复: demos/sync-repair.md
+      - 推近与变焦: demos/dolly-zoom.md
+      - 音乐两种剪法: demos/music-phrases.md
+      - 动作连续性: demos/action-continuity.md
+      - 对话空间图解: demos/dialogue-attention.md
+      - 字幕与画面竞争: demos/subtitle-attention.md

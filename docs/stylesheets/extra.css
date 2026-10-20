@@ -1,0 +1,9 @@
+.md-typeset figure.vid{margin:1.2em 0;max-width:760px}
+.md-typeset figure.vid video,.md-typeset figure.vid iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#000;display:block}
+.md-typeset figure.vid figcaption{font-size:.8rem;color:var(--md-default-fg-color--light);margin-top:.35em;text-align:left;max-width:none}
+.md-typeset table:not([class]){font-size:.72rem}
+.md-typeset .inline-play{font-size:.7rem;margin-left:.3em;padding:0 .45em;border-radius:1em;border:1px solid var(--md-accent-fg-color);cursor:pointer;background:none;color:var(--md-accent-fg-color)}
+.md-typeset .inline-media{display:block;margin:.5em 0 .8em;max-width:640px}
+.md-typeset .inline-media video{width:100%;border-radius:6px;background:#000}
+.hero{padding:.6rem 0 .2rem}.hero h1{margin-bottom:.3em}.hero p{font-size:.95rem;color:var(--md-default-fg-color--light)}
+.md-typeset .grid.cards>ul>li{border-radius:10px}

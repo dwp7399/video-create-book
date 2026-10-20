@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-13",
+  "dimensions": [
+    640,
+    360
+  ],
+  "fps": 24,
+  "seconds": 16,
+  "sample_rate": 48000,
+  "channels": 1,
+  "provenance": "original procedural geometry and synthesized audio",
+  "metrics": {
+    "ENV": {
+      "samples": 768000,
+      "peak": 0.0011364019010215998,
+      "rms_dbfs": -71.36301117489978
+    },
+    "CONTACT": {
+      "samples": 768000,
+      "peak": 0.2187018245458603,
+      "rms_dbfs": -42.98982436846801
+    },
+    "MOTOR": {
+      "samples": 768000,
+      "peak": 0.05000000074505806,
+      "rms_dbfs": -33.34750494891143
+    },
+    "DETAIL": {
+      "samples": 768000,
+      "peak": 0.10835357010364532,
+      "rms_dbfs": -42.03171144185119
+    },
+    "AIR": {
+      "samples": 768000,
+      "peak": 0.14405521750450134,
+      "rms_dbfs": -36.68570174826292
+    },
+    "S0": {
+      "samples": 768000,
+      "peak": 0.25635263323783875,
+      "rms_dbfs": -32.39718749415394
+    },
+    "S1": {
+      "samples": 768000,
+      "peak": 0.25635263323783875,
+      "rms_dbfs": -32.64531136619526
+    },
+    "S2": {
+      "samples": 768000,
+      "peak": 0.25635263323783875,
+      "rms_dbfs": -31.823443065003968
+    }
+  },
+  "decoded_video_hashes": {
+    "S0": "SHA256=6a8cd8e700bfebfde255f49ddc2644ea1aead3fc94e8fce8c8cfedb9991c66c2",
+    "S1": "SHA256=6a8cd8e700bfebfde255f49ddc2644ea1aead3fc94e8fce8c8cfedb9991c66c2",
+    "S2": "SHA256=6a8cd8e700bfebfde255f49ddc2644ea1aead3fc94e8fce8c8cfedb9991c66c2"
+  },
+  "checks": {
+    "384_frames_each": true,
+    "identical_decoded_picture": true,
+    "pcm_no_clipping": true,
+    "first_four_seconds_identical": true,
+    "last_four_seconds_env_only": true
+  },
+  "not_checked": [
+    "human listening",
+    "audience response",
+    "perceptual loudness matching"
+  ],
+  "script_sha256": "11a5f9ea3a79d8089fdd5e2111bbf23cab921d646f09cc15c37d0cff0ebfb4df"
+}

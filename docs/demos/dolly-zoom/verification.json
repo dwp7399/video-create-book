@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "model": "ideal pinhole, fixed sensor; no lens distortion/depth of field",
+  "duration_seconds": 12,
+  "fps": 24,
+  "frames": 288,
+  "audio": "none by design",
+  "projection": "pixel_width=400*f*object_width/(object_z-camera_z)",
+  "object_width": 1,
+  "foreground_z": 4,
+  "background_z": 8,
+  "zoom": {
+    "camera_z": 0,
+    "f_start": 1,
+    "f_end": 2,
+    "end_foreground_px": 200,
+    "end_background_px": 100
+  },
+  "dolly": {
+    "camera_z_start": 0,
+    "camera_z_end": 2,
+    "f": 1,
+    "end_foreground_px": 200,
+    "end_background_px": 66.66666666666667
+  },
+  "max_foreground_width_difference_px": 2.842170943040401e-14,
+  "checks": {
+    "matched_foreground_every_frame": true,
+    "different_background_scale": true,
+    "duration_and_frame_count": true
+  },
+  "limits": "Geometry demonstration; does not establish emotional or teaching effectiveness."
+}

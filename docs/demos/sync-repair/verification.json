@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "kind": "controlled fault injection, not an accidental production failure",
+  "changed_track": "CONTACT",
+  "delay_seconds": 0.5,
+  "visual_contact_seconds": 5.0,
+  "delayed_contact_peak_seconds": 5.500270833333333,
+  "repaired_contact_peak_seconds": 5.000270833333333,
+  "criterion_seconds": 0.041666666666666664,
+  "fault_fails": true,
+  "repair_passes": true,
+  "repair_pcm_equals_original_S1": true,
+  "identical_picture": true,
+  "note": "Peak localization is valid for this isolated synthesized event, not a general AV-sync detector."
+}

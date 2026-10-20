@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280">
+<rect width="960" height="280" fill="#f2f0e9"/><g font-family="sans-serif" fill="#304448">
+<text x="35" y="36" font-size="23">机位与物距：数值仅为示意单位</text>
+<path d="M100 145H865" stroke="#777" stroke-width="2"/>
+<path d="M110 145L470 65M110 145L470 225M110 145L830 65M110 145L830 225" stroke="#d0cbc0" fill="none"/>
+<rect x="465" y="85" width="10" height="120" fill="#2d777a"/><rect x="825" y="85" width="10" height="120" fill="#c47d45"/>
+<circle cx="110" cy="145" r="10" fill="#304448"/><circle cx="290" cy="145" r="10" fill="#304448"/>
+<path d="M125 145H270l-12 -7m12 7l-12 7" fill="none" stroke="#304448" stroke-width="3"/>
+<g font-size="18"><text x="55" y="255">起点 C=0</text><text x="235" y="255">推进终点 C=2</text>
+<text x="425" y="65">前景 Z=4</text><text x="785" y="65">背景 Z=8</text>
+<text x="40" y="92">变焦：留在起点，只改 f</text></g></g></svg>
