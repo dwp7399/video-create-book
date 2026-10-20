@@ -18,7 +18,7 @@ hide:
 
 <figure class="vid"><video controls preload="metadata" src="assets/films/ex01-A1.mp4"></video><figcaption>综合案例 A《最后一把伞》的 AI 参考成片（30 秒，有声）：同一套分镜，改变观众先知道什么，体验就不同。</figcaption></figure>
 
-## 两部分内容
+## 内容导航
 
 <div class="grid cards" markdown>
 
