@@ -90,6 +90,7 @@ nav:
       - A2 生成控制方式的演进: ai/A2-control-evolution.md
       - A3 一致性与抽卡率: ai/A3-consistency-yield.md
       - A4 后期、声音与验收: ai/A4-post-review.md
+      - Higgsfield 操作备忘: ai/higgsfield.md
   - 案例:
       - A 最后一把伞（剧情）: cases/01-umbrella.md
       - B 桌面支架演示（产品）: cases/02-product.md
